@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aivoifu-runpod"
+version = "0.1.0"
+description = ""
+authors = ["HRNPH <hrnph@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.x"
+aivoifu = "^0.1.1"
+runpod = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
